@@ -1,7 +1,5 @@
 import streamlit as st
 
-api_token=st.secrets['mapbox']
-
 st.title('Desechos tecnológicos')
 
 date = st.date_input("Seleccionar la fecha de recogida de los aparatos electrónicos")
