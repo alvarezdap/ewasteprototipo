@@ -9,7 +9,7 @@ date = st.date_input("Seleccionar la fecha de recogida de los aparatos electrón
 def anadir_tipo_desecho():
     option_celular = st.selectbox('Celular',('Samsung','Iphone','Huawei','Xiaomi'),key=1)
     option_cantidad = st.selectbox('Cantidad', ('0-100','100-500','500-1000','1000-5000','5000-10000'),key=2)
-    option_celular = st.selectbox('Computadoras',('Laptops','PCs')key=3)
+    option_celular = st.selectbox('Computadoras',('Laptops','PCs'),key=3)
     option_cantidad = st.selectbox('Cantidad', ('0-100','100-500','500-1000','1000-5000','5000-10000'),key=4)
 
 def calendarizar():
