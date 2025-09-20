@@ -7,4 +7,4 @@ date = st.date_input("Seleccionar la fecha de recogida de los aparatos electrón
 def anadir_tipo_desecho():
     option = st.selectbox('Celular',('Samsung','Iphone','Huawei','Xiaomi'),'Computadoras',('Apple','PCs','Laptops'))
 
-anadir_mascotas()
+anadir_tipo_desecho()
