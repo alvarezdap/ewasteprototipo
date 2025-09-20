@@ -15,7 +15,7 @@ def anadir_tipo_desecho():
 def calendarizar():
     st.button(label="Calendarizar recogida de desechos", help=None, on_click=st.balloons, args=None, kwargs=None, key=None, type="secondary", icon=None, disabled=False, use_container_width=None, width="content")
 
-st.map(latitude="-78.183406", longitude="-1.831239", zoom=4)
+st.map()
 
 anadir_tipo_desecho()
 calendarizar()
