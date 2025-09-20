@@ -11,7 +11,12 @@ def anadir_tipo_desecho():
 def calendarizar():
     st.button(label="Calendarizar recogida de desechos", help=None, on_click=st.balloons, args=None, kwargs=None, key=None, type="secondary", icon=None, disabled=False, use_container_width=None, width="content")
 
-st.map()
+df = pd.DataFrame(
+    rng(0).standard_normal((1000, 2)) / [-1.831239] + [-78.183406],
+    columns=["lat", "lon"],
+)
+
+st.map(df)
 
 anadir_tipo_desecho()
 calendarizar()
