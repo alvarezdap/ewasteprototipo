@@ -14,7 +14,7 @@ def calendarizar():
     st.button(label="Calendarizar recogida de desechos", help=None, on_click=st.balloons, args=None, kwargs=None, key=None, type="secondary", icon=None, disabled=False, use_container_width=None, width="content")
 
 df = pd.DataFrame(
-    rng(0).standard_normal((50, 2)) / [-1.56] + [-6.183406],
+    rng(0).standard_normal((50, 2)) / [-1.56] + [-5.183406],
     columns=["lat", "lon"],
 )
 
