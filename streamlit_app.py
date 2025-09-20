@@ -3,8 +3,9 @@ import pandas as pd
 from numpy.random import default_rng as rng
 
 st.title('Ecuawaste')
+st.header('Desechos tecnológicos')
 
-date = st.date_input("Seleccionar la fecha de recogida de los aparatos electrónicos")
+date = st.date_input("Seleccionar la fecha de recogida de los desechos tecnológicos")
 
 def anadir_tipo_desecho():
     option_celular = st.selectbox('Celular',('Samsung','Iphone','Huawei','Xiaomi'),key=1)
