@@ -1,4 +1,4 @@
-import streamlit as st
+*import streamlit as st
 
 st.title('Desechos tecnológicos')
 
@@ -9,7 +9,7 @@ def anadir_tipo_desecho():
     option_cantidad = st.selectbox('Cantidad', ('0-5','5-10','10-20'))
 
 def calendarizar():
-    st.button(label="Calendarizar recogida de desechos", help=None, on_click=st.ballons, args=None, kwargs=None, key=None, type="secondary", icon=None, disabled=False, use_container_width=None, width="content")
+    st.button(label="Calendarizar recogida de desechos", help=None, on_click=st.balloons, args=None, kwargs=None, key=None, type="secondary", icon=None, disabled=False, use_container_width=None, width="content")
 
 st.map()
 
