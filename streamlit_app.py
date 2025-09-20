@@ -3,7 +3,7 @@ import pandas as pd
 from numpy.random import default_rng as rng
 
 st.title('Ecuawaste')
-st.header('Desechos tecnológicos')
+st.header('Desechos tecnológicos', icon="https://www.flaticon.es/icono-gratis/nuclear_2515153?term=desecho&page=1&position=29&origin=search&related_id=2515153")
 
 date = st.date_input("Seleccionar la fecha de recogida de los desechos tecnológicos")
 
