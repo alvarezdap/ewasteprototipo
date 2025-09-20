@@ -7,6 +7,6 @@ date = st.date_input("Seleccionar la fecha de recogida de los aparatos electrón
 def anadir_tipo_desecho():
     option = st.selectbox('Celular',('Samsung','Iphone','Huawei','Xiaomi'))
 
-st.button("Calendarizar recogida de desechos")
-
 anadir_tipo_desecho()
+
+st.button("Calendarizar recogida de desechos")
