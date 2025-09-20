@@ -1,1 +1,1 @@
-date = st.date_input("Pick a date")
+date = st.date_input("Seleccionar la fecha de recogida de los aparatos electrónicos")
