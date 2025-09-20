@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from numpy.random import default_rng as rng
 
-st.title('Desechos tecnológicos')
+st.title('Ecuawaste')
 
 date = st.date_input("Seleccionar la fecha de recogida de los aparatos electrónicos")
 
